@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E179B6701B51C78D00B7C5D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E179B66F1B51C78D00B7C5D3 /* main.m */; };
+		E179B6731B51C78D00B7C5D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E179B6721B51C78D00B7C5D3 /* AppDelegate.m */; };
+		E179B6761B51C78D00B7C5D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E179B6751B51C78D00B7C5D3 /* ViewController.m */; };
+		E179B6791B51C78D00B7C5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E179B6771B51C78D00B7C5D3 /* Main.storyboard */; };
+		E179B67B1B51C78D00B7C5D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E179B67A1B51C78D00B7C5D3 /* Images.xcassets */; };
+		E179B67E1B51C78D00B7C5D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E179B67C1B51C78D00B7C5D3 /* LaunchScreen.xib */; };
+		E179B68A1B51C78D00B7C5D3 /* CookieCounter_AppleWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E179B6891B51C78D00B7C5D3 /* CookieCounter_AppleWatchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E179B6841B51C78D00B7C5D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E179B6621B51C78D00B7C5D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E179B6691B51C78D00B7C5D3;
+			remoteInfo = CookieCounter_AppleWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E179B66A1B51C78D00B7C5D3 /* CookieCounter_AppleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCounter_AppleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E179B66E1B51C78D00B7C5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E179B66F1B51C78D00B7C5D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E179B6711B51C78D00B7C5D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E179B6721B51C78D00B7C5D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E179B6741B51C78D00B7C5D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E179B6751B51C78D00B7C5D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E179B6781B51C78D00B7C5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E179B67A1B51C78D00B7C5D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E179B67D1B51C78D00B7C5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E179B6831B51C78D00B7C5D3 /* CookieCounter_AppleWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieCounter_AppleWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E179B6881B51C78D00B7C5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E179B6891B51C78D00B7C5D3 /* CookieCounter_AppleWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookieCounter_AppleWatchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E179B6671B51C78D00B7C5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E179B6801B51C78D00B7C5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E179B6611B51C78D00B7C5D3 = {
+			isa = PBXGroup;
+			children = (
+				E179B66C1B51C78D00B7C5D3 /* CookieCounter_AppleWatch */,
+				E179B6861B51C78D00B7C5D3 /* CookieCounter_AppleWatchTests */,
+				E179B66B1B51C78D00B7C5D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E179B66B1B51C78D00B7C5D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E179B66A1B51C78D00B7C5D3 /* CookieCounter_AppleWatch.app */,
+				E179B6831B51C78D00B7C5D3 /* CookieCounter_AppleWatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E179B66C1B51C78D00B7C5D3 /* CookieCounter_AppleWatch */ = {
+			isa = PBXGroup;
+			children = (
+				E179B6711B51C78D00B7C5D3 /* AppDelegate.h */,
+				E179B6721B51C78D00B7C5D3 /* AppDelegate.m */,
+				E179B6741B51C78D00B7C5D3 /* ViewController.h */,
+				E179B6751B51C78D00B7C5D3 /* ViewController.m */,
+				E179B6771B51C78D00B7C5D3 /* Main.storyboard */,
+				E179B67A1B51C78D00B7C5D3 /* Images.xcassets */,
+				E179B67C1B51C78D00B7C5D3 /* LaunchScreen.xib */,
+				E179B66D1B51C78D00B7C5D3 /* Supporting Files */,
+			);
+			path = CookieCounter_AppleWatch;
+			sourceTree = "<group>";
+		};
+		E179B66D1B51C78D00B7C5D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E179B66E1B51C78D00B7C5D3 /* Info.plist */,
+				E179B66F1B51C78D00B7C5D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E179B6861B51C78D00B7C5D3 /* CookieCounter_AppleWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				E179B6891B51C78D00B7C5D3 /* CookieCounter_AppleWatchTests.m */,
+				E179B6871B51C78D00B7C5D3 /* Supporting Files */,
+			);
+			path = CookieCounter_AppleWatchTests;
+			sourceTree = "<group>";
+		};
+		E179B6871B51C78D00B7C5D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E179B6881B51C78D00B7C5D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E179B6691B51C78D00B7C5D3 /* CookieCounter_AppleWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E179B68D1B51C78D00B7C5D3 /* Build configuration list for PBXNativeTarget "CookieCounter_AppleWatch" */;
+			buildPhases = (
+				E179B6661B51C78D00B7C5D3 /* Sources */,
+				E179B6671B51C78D00B7C5D3 /* Frameworks */,
+				E179B6681B51C78D00B7C5D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookieCounter_AppleWatch;
+			productName = CookieCounter_AppleWatch;
+			productReference = E179B66A1B51C78D00B7C5D3 /* CookieCounter_AppleWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E179B6821B51C78D00B7C5D3 /* CookieCounter_AppleWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E179B6901B51C78D00B7C5D3 /* Build configuration list for PBXNativeTarget "CookieCounter_AppleWatchTests" */;
+			buildPhases = (
+				E179B67F1B51C78D00B7C5D3 /* Sources */,
+				E179B6801B51C78D00B7C5D3 /* Frameworks */,
+				E179B6811B51C78D00B7C5D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E179B6851B51C78D00B7C5D3 /* PBXTargetDependency */,
+			);
+			name = CookieCounter_AppleWatchTests;
+			productName = CookieCounter_AppleWatchTests;
+			productReference = E179B6831B51C78D00B7C5D3 /* CookieCounter_AppleWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E179B6621B51C78D00B7C5D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Saksham Saini";
+				TargetAttributes = {
+					E179B6691B51C78D00B7C5D3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E179B6821B51C78D00B7C5D3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E179B6691B51C78D00B7C5D3;
+					};
+				};
+			};
+			buildConfigurationList = E179B6651B51C78D00B7C5D3 /* Build configuration list for PBXProject "CookieCounter_AppleWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E179B6611B51C78D00B7C5D3;
+			productRefGroup = E179B66B1B51C78D00B7C5D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E179B6691B51C78D00B7C5D3 /* CookieCounter_AppleWatch */,
+				E179B6821B51C78D00B7C5D3 /* CookieCounter_AppleWatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E179B6681B51C78D00B7C5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E179B6791B51C78D00B7C5D3 /* Main.storyboard in Resources */,
+				E179B67E1B51C78D00B7C5D3 /* LaunchScreen.xib in Resources */,
+				E179B67B1B51C78D00B7C5D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E179B6811B51C78D00B7C5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E179B6661B51C78D00B7C5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E179B6761B51C78D00B7C5D3 /* ViewController.m in Sources */,
+				E179B6731B51C78D00B7C5D3 /* AppDelegate.m in Sources */,
+				E179B6701B51C78D00B7C5D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E179B67F1B51C78D00B7C5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E179B68A1B51C78D00B7C5D3 /* CookieCounter_AppleWatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E179B6851B51C78D00B7C5D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E179B6691B51C78D00B7C5D3 /* CookieCounter_AppleWatch */;
+			targetProxy = E179B6841B51C78D00B7C5D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E179B6771B51C78D00B7C5D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E179B6781B51C78D00B7C5D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E179B67C1B51C78D00B7C5D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E179B67D1B51C78D00B7C5D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E179B68B1B51C78D00B7C5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E179B68C1B51C78D00B7C5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E179B68E1B51C78D00B7C5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CookieCounter_AppleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E179B68F1B51C78D00B7C5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CookieCounter_AppleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E179B6911B51C78D00B7C5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CookieCounter_AppleWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookieCounter_AppleWatch.app/CookieCounter_AppleWatch";
+			};
+			name = Debug;
+		};
+		E179B6921B51C78D00B7C5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CookieCounter_AppleWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookieCounter_AppleWatch.app/CookieCounter_AppleWatch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E179B6651B51C78D00B7C5D3 /* Build configuration list for PBXProject "CookieCounter_AppleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E179B68B1B51C78D00B7C5D3 /* Debug */,
+				E179B68C1B51C78D00B7C5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E179B68D1B51C78D00B7C5D3 /* Build configuration list for PBXNativeTarget "CookieCounter_AppleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E179B68E1B51C78D00B7C5D3 /* Debug */,
+				E179B68F1B51C78D00B7C5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E179B6901B51C78D00B7C5D3 /* Build configuration list for PBXNativeTarget "CookieCounter_AppleWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E179B6911B51C78D00B7C5D3 /* Debug */,
+				E179B6921B51C78D00B7C5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E179B6621B51C78D00B7C5D3 /* Project object */;
+}
